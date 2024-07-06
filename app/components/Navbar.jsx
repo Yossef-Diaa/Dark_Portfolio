@@ -14,7 +14,7 @@ const Navbar = () => {
                     <a href={'/'} className='w-1/3'> 
                         <Image
                             className=''
-                            src={"../assets/Logo0.png"}
+                            src={"https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Logo0_wuejyp.png"}
                             alt='Logo'
                             width={150}
                             height={50}
