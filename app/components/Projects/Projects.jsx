@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { Projects } from './project-config';
+import { Projects } from './projesct-config';
 import { useRouter } from "next/navigation";
 
 const ProjectsComponent = () => {
