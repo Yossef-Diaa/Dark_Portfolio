@@ -10,8 +10,8 @@ const Projescts = () => {
             <h1 className=" text-purple-100 font-bold text-3xl md:text-5xl" id="Projects">Projects</h1>
             <div className=" flex flex-wrap pt-8 gap-2 mx-auto justify-around col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 items-center">
                 {
-                    Projects.map((project)=>(
-                <div className=" flex flex-col items-center gap-3 mt-3  border border-_PrimeDark   rounded-xl p-4 hover:scale-[103%] hover:bg-zinc-600 hover:bg-opacity-5 ">
+                    Projects.map((project, index)=>(
+                <div className=" flex flex-col items-center gap-3 mt-3  border border-_PrimeDark   rounded-xl p-4 hover:scale-[103%] hover:bg-zinc-600 hover:bg-opacity-5 " key={index}>
                     <Image
                         src={project.img}
                         alt={project.title}
