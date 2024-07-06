@@ -1,0 +1,5 @@
+[submodule "Dark-Interface"]
+    path = Dark_Portfolio     ; Path where the submodule is located within the main repository
+    url = https://github.com/Yossef-Diaa/Dark_Portfolio.git  ; Remote URL of the submodule repository
+    branch = master             ; Optional: Specific branch of the submodule repository to track
+    ignore = dirty              ; Optional: Ignoring changes in the submodule
