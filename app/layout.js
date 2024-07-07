@@ -10,7 +10,7 @@ export const metadata = {
   description: "Portfolio Yossef Diaa",
   icon: 'https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Logo0_wuejyp.png'
 };
-
+  
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
