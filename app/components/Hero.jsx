@@ -10,10 +10,10 @@ const Hero = () => {
                 <div className="md:w-1/2 mt-7 flex flex-col space-y-6 justify-center py-6  text-start text-_PrimeDark">
                 <div>WELCOME TO MY WORLD</div>
                     <h1 className='font-bold text-5xl'>
-                        Hi, I\'m  <span className="text-purple-500">Yossef Diaa</span>
+                        Hi, I&apos;m  <span className="text-purple-500">Yossef Diaa</span>
                     </h1>
                     <p className=" ease-in-out  ">
-                        I\'m a Front-end web Developer, I love to create beautiful and functional websites. My goal is to learn new things every day.
+                        I&apos;m a Front-end web Developer, I love to create beautiful and functional websites. My goal is to learn new things every day.
                     </p>
                     <div>
 
