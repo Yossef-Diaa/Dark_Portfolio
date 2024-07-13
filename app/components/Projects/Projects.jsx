@@ -22,14 +22,14 @@ const ProjectsComponent = () => {
                             <h1 className="text-xl pt-4 font-bold text-_PrimeDark">{project.title}</h1>
                             <p className="pt-1 text-purple-200 font-semibold">{project.desc}</p>
                             <div className="pt-4">
-                                <button className="text-purple-950 bg-_PrimeDark py-2 px-6 rounded-full self-center md:self-start hover:bg-purple-300" onClick={() => router.push('https://yossef-diaa.github.io/Dark-Project/')}>Live Preview</button>
+                                <button className="text-purple-950 bg-_PrimeDark py-2 px-6 rounded-full self-center md:self-start hover:bg-purple-300" onClick={() => router.push(project.href)}>Live Preview</button>
                             </div>
                         </div>
                     ))
                 }
             </div>
             <div className="flex justify-center items-center mt-20">
-                <button className="text-_PrimeDark text-lg bg-purple-950 py-2 px-6 rounded-full self-center md:self-start hover:bg-purple-300 hover:bg-opacity-50" onClick={() => router.push('https://github.com/Yossef-Diaa/')}>See More</button>
+                <button className="text-_PrimeDark text-lg bg-purple-950 py-2 px-6 rounded-full self-center md:self-start hover:bg-purple-300 hover:bg-opacity-50" onClick={() => router.push(project.href)}>See More</button>
             </div>
             <hr className=" w-auto mx-8 mt-12  mb-8 opacity-15" />
 
