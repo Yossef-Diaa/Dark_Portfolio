@@ -20,7 +20,10 @@ const Skills = () => {
                 )
                 )}
             </div>
+            <hr className=" w-auto mx-8 mt-12  mb-8 opacity-15" />
             <AdditionalSkills />
+            <hr className=" w-auto mx-8 mt-12  mb-8 opacity-15" />
+
         </div>
     );
 }

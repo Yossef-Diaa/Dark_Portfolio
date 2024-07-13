@@ -31,6 +31,8 @@ const ProjectsComponent = () => {
             <div className="flex justify-center items-center mt-20">
                 <button className="text-_PrimeDark text-lg bg-purple-950 py-2 px-6 rounded-full self-center md:self-start hover:bg-purple-300 hover:bg-opacity-50" onClick={() => router.push('https://github.com/Yossef-Diaa/')}>See More</button>
             </div>
+            <hr className=" w-auto mx-8 mt-12  mb-8 opacity-15" />
+
         </div>
     );
 }

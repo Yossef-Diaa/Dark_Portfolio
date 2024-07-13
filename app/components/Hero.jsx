@@ -1,29 +1,39 @@
-import react from "react";
-import Image from 'next/image'
+import React from "react";
+import Image from 'next/image';
+import HeroButton from "./HeroButton";
 
 const Hero = () => {
     return (
-        <div className=" mx-auto flex flex-col-reverse md:flex-row md:px-6 md:space-x-6  items-center">
-            <div className="w-1/2 flex flex-col space-y-6 justify-center py-6 text-center md:text-start text-_PrimeDark ">
-                <h1 className='font-bold text-3xl md:text-5xl '>
-                    I m Yossef Diaa
-                </h1>
-                <p>
-                    I m a Front-end web Developer, I love to create beautiful and functional websites. my goal is to learn new thing every day.
-                </p>
-                <button className="text-purple-950 bg-_PrimeDark py-2 px-6 rounded-full self-center md:self-start hover:bg-purple-300">Download CV</button>
+        <div>
+            <hr className=" w-auto mx-8 opacity-15" />
+            <div className="mx-auto flex flex-col  md:flex-row px-6 md:space-x-6 items-center">
+                <div className="md:w-1/2 mt-7 flex flex-col space-y-6 justify-center py-6  text-start text-_PrimeDark">
+                <div>WELCOME TO MY WORLD</div>
+                    <h1 className='font-bold text-5xl'>
+                        Hi, I'm  <span className="text-purple-500">Yossef Diaa</span>
+                    </h1>
+                    <p className=" ease-in-out  ">
+                        I'm a Front-end web Developer, I love to create beautiful and functional websites. My goal is to learn new things every day.
+                    </p>
+                    <div>
 
+                        <HeroButton />
+                    </div>
+                </div>
+                <div className="md:w-1/2 py-6 mt-12">
+                    <Image
+                        className='rounded-xl md:rounded-full w-full'
+                        src="https://res.cloudinary.com/dxmudifi2/image/upload/v1720299450/Dark-Protofolio/bg_2_sze10f.png"
+                        alt='Logo'
+                        width={1000}
+                        height={50}
+                    />
+                </div>
             </div>
-            <div className="md:w-1/2 py-6 ">
-                <Image
-                    className=' rounded-xl md:rounded-full w-full '
-                    src={"https://res.cloudinary.com/dxmudifi2/image/upload/v1720299450/Dark-Protofolio/bg_2_sze10f.png"}
-                    alt='Logo'
-                    width={1000}
-                    height={50}
-                />
-            </div>
+            <hr className=" w-auto mx-8 mt-12  mb-8 opacity-15" />
+
         </div>
-    )
+    );
 }
+
 export default Hero;
