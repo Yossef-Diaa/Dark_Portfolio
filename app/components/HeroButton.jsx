@@ -1,7 +1,7 @@
 'use client'
 
 const HeroButton = () => {
-    const file = "../assets/icons/Yossef-Diaaeldin-Mohamed-CV.pdf";
+    const file = "./assets/icons/Yossef-Diaaeldin-Mohamed-CV.pdf";
 
     const HandleDownloading = (url) => {
         const fileName = url.split("/").pop();
