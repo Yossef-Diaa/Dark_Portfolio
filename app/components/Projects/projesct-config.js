@@ -1,6 +1,7 @@
+import Project0 from '../assets/Project.png'
 export const Projects = [
     {
-        img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Project_dmqp5i.png",
+        img: Project0,
         title: 'Simple Interface',
         desc: "HTML || Tailwind Css || react.js || Next.js",
         href: 'https://yossef-diaa.github.io/Dark-Interface/'

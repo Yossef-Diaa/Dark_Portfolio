@@ -1,34 +1,44 @@
+import next from '../assets/next.jpeg'
+import html from '../assets/html1.png'
+import css from '../assets/css.png'
+import js from '../assets/js.png'
+import Ts from '../assets/Ts.png'
+import react from '../assets/react.png'
+import TailwindCss from '../assets/TailwindCss.png'
+import Prisma1 from '../assets/Prisma1.png'
+
+
 export const Skilles = [
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266956/Dark-Protofolio/next_ppgtdo.jpg",
+      img: next,
       title: 'NextJs',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/html1_fvjcca.png",
+      img: html,
       title: 'Html',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266956/Dark-Protofolio/css_rgztkm.png",
+      img: css,
       title: 'css',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266956/Dark-Protofolio/js_qunzq3.png",
+      img: js,
       title: 'JavaScript',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Ts_cnv0u4.png",
+      img: Ts,
       title: 'TypeScript',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/react_zbaz5o.png",
+      img: react,
       title: 'Reactjs',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/TailwindCss_xmjjus.png",
+      img: TailwindCss,
       title: 'TailwindCss',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Prisma1_st6cc8.png",
+      img: Prisma1,
       title: 'prisma ',
     },
   ];

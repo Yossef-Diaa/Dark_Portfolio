@@ -4,6 +4,7 @@ import Navbarconfig from './Navbar-config';
 import Link from 'next/link';
 import { FaFacebook } from "react-icons/fa6";
 import { FaGithub ,FaLinkedin,FaInstagramSquare } from "react-icons/fa";
+import logo from './assets/Logo0.png'
 
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
                     <a href={'/'} className='w-1/3'> 
                         <Image
                             className=''
-                            src={"https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Logo0_wuejyp.png"}
+                            src={logo}
                             alt='Logo'
                             width={150}
                             height={50}

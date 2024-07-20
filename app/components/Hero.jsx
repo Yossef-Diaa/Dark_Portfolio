@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import HeroButton from "./HeroButton";
+import hero from './assets/Hero.png'
 
 const Hero = () => {
     return (
@@ -23,7 +24,7 @@ const Hero = () => {
                 <div className="md:w-1/2 py-6 mt-12">
                     <Image
                         className='rounded-xl md:rounded-full w-full'
-                        src="https://res.cloudinary.com/dxmudifi2/image/upload/v1720299450/Dark-Protofolio/bg_2_sze10f.png"
+                        src={hero}
                         alt='Logo'
                         width={1000}
                         height={50}

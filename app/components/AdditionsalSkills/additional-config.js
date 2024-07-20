@@ -1,18 +1,23 @@
+import git from '../assets/git.png'
+import GitHub from '../assets/GitHub.png'
+import CommandLine from '../assets/CommandLine.png'
+import Problemsolving from '../assets/Problemsolving.png'
+
 export const AdditionalSkilles = [
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266956/Dark-Protofolio/git_nylgio.png",
+      img:git,
       title: 'Git',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/GitHub_bcvjsr.png",
+      img: GitHub,
       title: 'GitHub',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/CommandLine_uxscvz.png",
+      img: CommandLine,
       title: 'Command Line',
     },
     {
-      img: "https://res.cloudinary.com/dxmudifi2/image/upload/v1720266957/Dark-Protofolio/Problemsolving_w2fqkr.png",
+      img: Problemsolving,
       title: 'Problemsolving',
     },
   
