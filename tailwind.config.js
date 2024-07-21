@@ -5,7 +5,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+  darkMode: 'class',
+    theme: {
     extend: {
       colors:{
         _PrimeDark:"#CDE8E5",

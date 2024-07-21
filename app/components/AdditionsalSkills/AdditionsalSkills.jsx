@@ -4,7 +4,7 @@ import { AdditionalSkilles } from "./additional-config";
 const AdditionalSkills = () => {
     return (
         <>
-            <h1 className=" text-purple-100 font-bold text-3xl md:text-5xl">Additional skills</h1>
+            <h1 className=" dark:text-purple-100 text-black  font-bold text-3xl md:text-5xl">Additional skills</h1>
             <div className=" flex flex-wrap  p-6 justify-around  gap-3">
             {AdditionalSkilles.map((skill, index) => (
                     <div key={index} className=" my-3 w-72 px-4 flex justify-center gap-3 items-center flex-col py-5">

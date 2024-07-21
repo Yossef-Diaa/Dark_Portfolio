@@ -4,7 +4,7 @@ import { Skilles } from './skills-config'
 const Skills = () => {
     return (
         <div className=" mx-auto p-4 px-6 ">
-            <h1 className=" text-purple-100 font-bold text-3xl md:text-5xl" id="skills">Skills</h1>
+            <h1 className=" dark:text-purple-100 text-black font-bold text-3xl md:text-5xl" id="skills">Skills</h1>
             <div className=" flex flex-wrap  p-6 justify-around  gap-3">
                 {Skilles.map((skill, index) => (
                     <div key={index} className="  py-5 my-3 w-72 px-4 flex flex-col justify-around p-2 items-center gap-2">

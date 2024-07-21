@@ -16,10 +16,10 @@ const Navbarconfig = () => {
             <div className="md:hidden mx-auto  ">
 
             <div className={`flex flex-col absolute  ${active} space-y-3 items-center drop-shadow-2xl border border-purple-100 bg-black rounded-xl left-6 right-6 py-6`}>
-                        <a className="text-_PrimeDark hover:text-_3Dark cursor-pointer ">Home</a>
-                        <a className="text-_PrimeDark hover:text-_3Dark cursor-pointer ">Projects</a>
-                        <a className="text-_PrimeDark hover:text-_3Dark cursor-pointer ">Skills</a>
-                        <a className="text-_PrimeDark hover:text-_3Dark cursor-pointer ">Contacts</a>
+                        <a className="dark:text-_PrimeDark text-black hover:text-_3Dark cursor-pointer ">Home</a>
+                        <a className="dark:text-_PrimeDark text-black hover:text-_3Dark cursor-pointer ">Projects</a>
+                        <a className="dark:text-_PrimeDark text-black hover:text-_3Dark cursor-pointer ">Skills</a>
+                        <a className="dark:text-_PrimeDark text-black hover:text-_3Dark cursor-pointer ">Contacts</a>
                         <button className="text-purple-400 bg-_PrimeDark py-2 px-6 rounded-full hover:bg-purple-300">Login</button>
                 </div>
             </div>
